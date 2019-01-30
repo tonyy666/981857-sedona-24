@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [andrei](https://up.htmlacademy.ru/htmlcss/24/user/981857).
-* Наставник: `Неизвестно`.
+* Наставник:[Виктория Коваленко](https://up.htmlacademy.ru/htmlcss/24/user/42638)
 
 ---
 
