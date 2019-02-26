@@ -18,13 +18,45 @@
     </ul>
    </nav>
 	<main class="container">
-       <!-- форма -->
-   <section class="hotels">
+   <section class="filter">
+     <form action="/echo" method="post" oninput=" .value=rating.">
+       <div class="infrastructure">
+       <h2>инфраструктура:</h2>
+       <p><input type="checkbox" name="infrastructure" id="бассейн" checked>
+       <label for="бассейн"> бассейн</label>
+       <p><input type="checkbox" name="infrastructure" id="парковка" checked>
+       <label for="парковка">парковка</label>
+       <p><input type="checkbox" name="infrastructure" id="wi-fi" checked>
+       <label for="wi-fi">wi-fi</label>
+       </div>
+       <div class="hotel-type">
+         <h2>тип жилья:</h2>
+       <p><input type="checkbox" name="hotel-type" id="гостиница" checked>
+       <label for="гостиница">гостиница</label>
+       <p><input type="checkbox" name="hotel-type" id="мотель" checked>
+       <label for="мотель">мотель</label>
+       <p><input type="checkbox" name="hotel-type" id="апартаменты" checked>
+       <label for="апартаменты">апартаменты</label>
+       </div>
+       <div class=price-slider">
+       <h2>стоимость сутки(р):</h2>
+       <input type="text" name="price-from" id="from"  placeholder="от 0">
+       <input type="text" name="price-to" id="to"  placeholder="до 3000">
+       </div>
+       <p><input type="submit" value="показать"></p>
+
+    </form>
+  </section>
+  <section class="filter-results"
+  <h2>найдено:3<h2>
+  <p>сортировка:</p>
+  </section>
+  <section class="hotels">
     <h2 class="visually-hidden">список гостиниц</h2>
-	  <ul class="hotels-list">
+	   <ul class="hotels-list">
 		  <li class="hotel-option">
 		   <h3>
-		    <a href="list-option.html">amara resort & spa</a>
+		   <a href="list-option.html">amara resort & spa</a>
 		   </h3>
        <a href="list-option.html">
         <img src="img\amara-hotel.jpg" width="135" height="90" alt="фото amara resort & spa">
@@ -95,22 +127,19 @@
    </a>
    <div class="footer-social">
     <ul>
-     <li>
-      <a class="social-button" href="#twitter">
-       <img scr="img\twitter.svg" width="17" height="15">
-      </a>
-     </li>
-     <li>
-      <a class="social-button" href="#facebook">
-       <img scr="img\facebook.svg" width="12" height="22">
-      </a>
-     </li>
-     <li>
-      <a class="social-button" href="#youtube">
-       <img scr="img\star.svg" width="20" height="16">
-      </a>
-     </li>
-    </ul>
+      <li>
+       <a class="social-button-twitter" href="#twitter">
+       </a>
+      </li>
+      <li>
+       <a class="social-button-facebook" href="#facebook">
+       </a>
+      </li>
+      <li>
+       <a class="social-button-youtube" href="#youtube">
+       </a>
+      </li>
+     </ul>
    </div>
     <p class="created">website by</p>
     <a href="https://htmlacademy.ru">
