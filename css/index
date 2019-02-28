@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+
+
+  font-family: "PT Sans Regular", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  background-color: white;
+}
+.site-navigation,
+.social {
+  list-style: none;
+}
+.site-navigation a {
+  color:#000000
+}
+.site-navigation a:hover {
+  color:#81b3d2
+}
+.site-navigation a:active {
+color: #black--30 rgba(0,0,0,0.3)
+}
+.background-mainpage-photo {
+  width: 1200px;
+  height: 501px;
+  background:
+  url("background-mainpage-photo.jpg");
+}
+
+.grand-canyon-sucks{
+  height: 501px;
+  background:
+  url("grand-canyon-sucks.png") no-repeat,
+  url("polygon.svg") no-repeat;
+  background-position:  50% 50% , bottom;
+}
+.intro {
+  text-align: center;
+
+  line-height: 26px;
+}
+.advantages-1,
+.advantages-2 {
+  background-color: #81b3d2;
+  color: #ffffff;
+  line-height: 21px;
+}
+.advantages-3,
+.advantages-4,
+.advantages-5 {
+  background-color: #f2f2f2;
+  line-height: 21px;
+}
