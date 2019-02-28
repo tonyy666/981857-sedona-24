@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Regular:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -14,23 +17,73 @@
         <li><a href="information.html">информация</a></li>
         <li><a href="multimedia.html">фото и видео</a></li>
         <li><a href="map.html">карта штата</a></li>
-        <li><a href="hotels.html">гостиницы</a></li>
+        <li><a href="catalog.html">гостиницы</a></li>
        </ul>
      </nav>
     </header>
    <main class="container">
-    <section class="main-photo">
-     <a href="index.html">
-      <img src="img\backgroundMainPage-photo.jpg" width="1200" height="800" alt="фон главной картинки">
-     </a>
-      <img src="img\GrandCanyonIsSucks.png" width="459" height="353" alt=" надпись на фоне">
-      <img src="img\polygon.svg" width="1201" height="59" alt="декоративный элемент на фоне">
-    </section>
-    <h1>
+    <div class="background-mainpage-photo">
+      <!-- скрытый заголовок для читалки "welcome to the gorgeuos sedona becouse the grand canyon sucks" -->
+     <div class="grand-canyon-sucks">
+     </div>
+    </div>
+    <section class="intro">
+     <h1>
      седона - небольшой городок а аризоне,заслуживающий большего!
-    </h1>
-    <p>рассмотрим 5 причин,по которым седона круче,чем гранд каньон!</p>
-      <!-- красный блок с описанием преимуществ -->
+     </h1>
+     <p>рассмотрим 5 причин,по которым седона круче,чем гранд каньон!</p>
+    </section>
+    <section class="advanteges">
+	   <h2 class="visually-hidden">Описание причин</h2>
+	   <div class="advantages">
+      <div class="advantages-1">
+	     <h2>настоящий городок</h2>
+	     <p>&ndash; №1 &ndash;</p>
+       <p>седона - не аттракцион для туристов, там течёт своя жизнь</p>
+	     <div class="advantages-1pic"><img src="img\layer-10.jpg" width="800" height="256" alt="картинка преимущество-1">
+       </div>
+      </div>
+	     <ul class="advantages-1-list">
+		    <li>
+		     <h2>жильё</h2>
+         <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+		     <img src="img\motel.png" width="75" height="72" alt="иконка мотель">
+	      </li>
+	      <li>
+		     <h2>еда</h2>
+         <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+		     <img src="img\food.png" width="74" height="70" alt="иконка еда">
+	      </li>
+	    <li>
+		   <h2>сувениры</h2>
+       <p>не только китайского, но и местного производства!</p>
+		   <img src="img\souvenir.png width="64" height="76" alt="иконка сувениры">
+	    </li>
+		 </ul>
+	  <div class="advantages-2">
+	   <h2>там есть мост дьявола</h2>
+	   <p>&ndash;&nbsp; №2 &nbsp;&ndash;</p>
+	   <p>да, по нему можно пройти! если вы осмелитесь, конечно</p>
+	   <div class="advantages-1pic"><img src="img\layer-5.jpg" width="800" height="256" alt="картинка преимущество-2">
+	  </div>
+	 </div>
+	 <div class="advantages-3">
+	   <h2>небольшая площадь</h2>
+	   <p>&ndash;&nbsp; №3 &nbsp;&ndash;</p>
+	   <p>все достопримечательности находятся очень близко</p>
+	 </div>
+	 <div class="advantages-4">
+	   <h2>красивая дорога</h2>
+	   <p>&ndash;&nbsp; №4 &nbsp;&ndash;</p>
+	   <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+	 </div>
+	 <div class="advantages-5">
+	   <h2>мало туристов</h2>
+	   <p>&ndash;&nbsp; №5 &nbsp;&ndash;</p>
+	   <p>большинство едет в гранд каньон и толпится там!</p>
+	 </div>
+  </div>
+	</section>
     <section class="appointment">
     <h2>заинтересовались?</h2>
     <p class="appointment-info">укажите предпологаемые даты поездки,<br>
@@ -38,7 +91,7 @@
     </section>
     <section class="modal booking-dates">
      <h2>поиск гостиницы в седоне</h2>
-     <form action="???" method="get">
+     <form action="#" method="get">
      <p>
      <label for="check-in-date">
       дата заезда:
@@ -69,20 +122,20 @@
     <a class="twitter-hashtag" href="#twitter">#VISITSEDONA
     </a>
     <div class="footer-social">
-     <ul>
+     <ul class="social">
       <li>
-       <a class="social-button-twitter" href="#twitter">
+       <a class="social-button-twitter" href="#twitter">twitter
        </a>
       </li>
       <li>
-       <a class="social-button-facebook" href="#facebook">
+       <a class="social-button-facebook" href="#facebook">facebook
        </a>
       </li>
       <li>
-       <a class="social-button-youtube" href="#youtube">
+       <a class="social-button-youtube" href="#youtube">youtube
        </a>
       </li>
-     </ul>
+    </ul class="social">
     </div>
     <p class="created">website by</p>
     <a href="https://htmlacademy.ru">
